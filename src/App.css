@@ -45,6 +45,7 @@
   bottom: 10px;
   padding: 4px;
   border: 5px inset dodgerblue;
+  background-color: aliceblue;
 }
 
 form #formStyle{
@@ -53,5 +54,21 @@ form #formStyle{
 }
 
 #mainBtn{
-  margin-top: 25px;
+  margin: 20px;
+}
+
+#disclaimer{
+  background-color: #61dafb;
+  margin-left: 30%;
+  margin-right: 30%;
+  border: 3px inset dodgerblue;
+}
+
+#sodaStyle{
+  margin-top: 10px;
+  background-color: ivory;
+  margin-left: 30%;
+  margin-right: 30%;
+  border: 3px inset dodgerblue;
+  text-align: center;
 }

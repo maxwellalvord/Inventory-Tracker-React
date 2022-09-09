@@ -25,8 +25,8 @@ function ReusableForm(props) {
             name='flavor'
             placeholder='Cherry vanilla' />
         </div>
-        <div id="mainBtn" align="center">
-          <button className="d-flex justify-content-center" type='submit'>{props.buttonText}</button>
+        <div align="center">
+          <button id="mainBtn" className="d-flex justify-content-center" type='submit'>{props.buttonText}</button>
         </div>
       </form>
     </React.Fragment>

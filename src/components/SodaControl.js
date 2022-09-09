@@ -69,7 +69,7 @@ class SodaControl extends React.Component {
       <React.Fragment>
         {currentlyVisibleState}
         <div className="d-flex flex-row justify-content-center">
-          <button onClick={this.handleClick}>{buttonText}</button>
+          <button id="mainBtn" onClick={this.handleClick}>{buttonText}</button>
         </div> 
       </React.Fragment>
     );

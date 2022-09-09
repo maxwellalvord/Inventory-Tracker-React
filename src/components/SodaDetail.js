@@ -6,10 +6,12 @@ function SodaDetail(props){
 
   return (
     <React.Fragment>
-      <h1>Soda Details</h1>
-      <h3>{soda.flavor} - {soda.brand}</h3>
-      <p><em>{soda.quantity}</em></p>
-      { soda.quantity > 0 ? <button onClick= {props.removeCan}>Sell Can</button> : null}
+      <div id="sodaStyle">
+        <h1>Soda Details</h1>
+        <h3>{soda.flavor} - {soda.brand}</h3>
+        <p><em>{soda.quantity}</em></p>
+        { soda.quantity > 0 ? <button id="mainBtn" onClick= {props.removeCan}>Sell Can</button> : null}
+      </div>
     </React.Fragment>
   );
 }
