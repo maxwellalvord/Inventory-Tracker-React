@@ -14,7 +14,6 @@ class SodaControl extends React.Component {
     };
   }
 
-
   handleChangingSelectedSoda = (id) => {
     const selectedSoda = this.state.mainSodaList.filter(soda => soda.id === id)[0];
     this.setState({selectedSoda: selectedSoda});
@@ -58,14 +57,14 @@ class SodaControl extends React.Component {
     if (this.state.selectedSoda != null) {
       currentlyVisibleState = <SodaDetail soda = {this.state.selectedSoda} removeCan = {this.handleRemoveCan}/>
       buttonText = "Return to Soda List";
-    }
-    else if (this.state.formVisibleOnPage) {
+    } else if (this.state.formVisibleOnPage) {
       currentlyVisibleState = <NewSodaForm onNewSodaCreation={this.handleAddingNewSodaToList}  />;
       buttonText = "Return to Soda List";
     } else {
       currentlyVisibleState = <SodaList sodaList={this.state.mainSodaList} onSodaSelection={this.handleChangingSelectedSoda} />;
       buttonText = "Add Soda";
     }
+
     return (
       <React.Fragment>
         {currentlyVisibleState}
