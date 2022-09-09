@@ -1,4 +1,4 @@
-# Inventory tracking in React
+# Inventory Tracking in React
 
 ## By Maxwell Alvord
 
@@ -53,6 +53,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ## Known Bugs
 
 * If user doesn't cd into "Desktop", witha capital D, an error will appear after every refresh. Does not break program but is annoying.
+* Background image repeats depending on display size.
 
 ## License
 [MIT](https://opensource.org/osd)
