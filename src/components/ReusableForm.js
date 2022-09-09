@@ -10,22 +10,22 @@ function ReusableForm(props) {
   
   return (
     <React.Fragment>
-      <form onSubmit={props.formSubmissionHandler}>
-        <div className="col my-2">
+      <form id="formStyle" onSubmit={props.formSubmissionHandler}>
+        <div className="col my-2" align="center">
           <input style={reusableFormStyles}
             className="mx-3"
             type='text'
             name='brand'
             placeholder='Coca-Cola Company' />
         </div>
-        <div className="col my-2">
+        <div className="col my-2" align="center">
           <input style={reusableFormStyles}
             className="mx-3"
             type='text'
             name='flavor'
             placeholder='Cherry vanilla' />
         </div>
-        <div className="">
+        <div id="mainBtn" align="center">
           <button className="d-flex justify-content-center" type='submit'>{props.buttonText}</button>
         </div>
       </form>
