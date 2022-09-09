@@ -1,9 +1,14 @@
-# Getting Started with Create React App
+# Inventory tracking in React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## By Maxwell Alvord
 
-## Available Scripts
-
+## Technologies Used
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="50" />
+          
+          
+          
 In the project directory, you can run:
 
 ### `npm start`

@@ -75,3 +75,5 @@ class SodaControl extends React.Component {
   }
 
 }
+
+export default SodaControl;

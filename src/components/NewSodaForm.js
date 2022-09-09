@@ -10,7 +10,6 @@ function NewSodaForm(props){
     props.onNewSodaCreation({
       brand: event.target.brand.value, 
       flavor: event.target.flavor.value, 
-      description: event.target.description.value, 
       id: v4(),
       quantity: 24
     });
