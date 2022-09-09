@@ -11,7 +11,7 @@ function SodaList(props){
   return (
     <React.Fragment>
       <hr/>
-      <h4 id="disclaimer" align="center">(DISCLAIMER: This party only allows you to bring 24 packs!)</h4>
+      <h4 id="Disclaimer" align="center">(DISCLAIMER: This party only allows you to bring 24 packs!)</h4>
         {/* {hasSoda ? ( */}
           <div id="sodaStyle">
             {props.sodaList.map((soda) =>

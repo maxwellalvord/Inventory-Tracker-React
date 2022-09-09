@@ -37,28 +37,23 @@
   }
 }
 
-
-
 #footerStyle{
   position: fixed;
-  left: 47%;
-  bottom: 10px;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
   padding: 4px;
   border: 5px inset dodgerblue;
   background-color: aliceblue;
-}
-
-form #formStyle{
-  text-align: center;
-  display: inline-block;
 }
 
 #mainBtn{
   margin: 20px;
 }
 
-#disclaimer{
-  background-color: #61dafb;
+#Disclaimer{
+  background-color: ivory;
   margin-left: 30%;
   margin-right: 30%;
   border: 3px inset dodgerblue;
@@ -71,4 +66,12 @@ form #formStyle{
   margin-right: 30%;
   border: 3px inset dodgerblue;
   text-align: center;
+}
+
+#Head{
+  background-color: ivory;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 1%;
+  border: 3px inset dodgerblue;
 }
