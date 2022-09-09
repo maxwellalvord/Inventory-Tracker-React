@@ -1,0 +1,41 @@
+import React from "react";
+import PropTypes from "prop-types";
+
+function ReusableForm(props) {
+  const reusableFormStyles = {
+    width: '620px',
+    border: '3px solid #dadada',
+    borderRadius: '6px'
+  }
+  
+  return (
+    <React.Fragment>
+      <form onSubmit={props.formSubmissionHandler}>
+        <div className="col my-2">
+          <input style={reusableFormStyles}
+            className="mx-3"
+            type='text'
+            name='brand'
+            placeholder='Coca-Cola Company' />
+        </div>
+        <div className="col my-2">
+          <input style={reusableFormStyles}
+            className="mx-3"
+            type='text'
+            name='flavor'
+            placeholder='Cherry vanilla' />
+        </div>
+        <div className="d-flex justify-content-center">
+          <button className="d-flex justify-content-center" type='submit'>{props.buttonText}</button>
+        </div>
+      </form>
+    </React.Fragment>
+  );
+}
+
+ReusableForm.prototype = {
+  formSubmissionHandler: PropTypes.func,
+  buttonText: PropTypes.string
+};
+
+export default ReusableForm;
