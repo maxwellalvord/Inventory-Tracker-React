@@ -25,7 +25,7 @@ function ReusableForm(props) {
             name='flavor'
             placeholder='Cherry vanilla' />
         </div>
-        <div className="d-flex justify-content-center">
+        <div className="">
           <button className="d-flex justify-content-center" type='submit'>{props.buttonText}</button>
         </div>
       </form>
